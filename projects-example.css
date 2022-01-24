@@ -1,0 +1,87 @@
+header{
+    height: 94.2833px !important;
+}
+
+
+.main-navbar-scroll{
+    box-shadow: none !important;
+}  
+
+#projects-example-page {
+    max-width: 1344px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#projects-example-page h5{
+    text-align: center;
+    color: #143642;
+    font-size: 1.2em;
+    color: #545d75;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-weight: 800;
+}
+
+#projects-example-page h3{
+    text-align: center;
+    color: #143642;
+    font-size: 1.9em;
+    color: #545d75;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+#projects-example-page #projects-example-line{
+    width: 60px;
+    height: 5px;
+    background: rgb(101,198,202);
+    background: linear-gradient(90deg, rgba(101,198,202,1) 15%, rgba(74,158,188,1) 37%, rgba(47,108,128,1) 100%);
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-bottom: 80px;
+}
+
+#projects-example-page #projects-example-line-container{
+
+}
+
+#projects-example-page #projects-example-line-container #projects-example-line-container-1{
+   
+}
+
+#projects-example-page #projects-example-line-container 
+#projects-example-line-container-1 #projects-example-line-container-info{
+    border: 1px solid #DFE2E4;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#projects-example-page #projects-example-line-container 
+#projects-example-line-container-1 #projects-example-line-container-info 
+.projects-example-line-container-info-box{
+    margin-bottom: 15px;
+    
+}
+
+#projects-example-page #projects-example-line-container 
+#projects-example-line-container-1 #projects-example-line-container-info 
+.projects-example-line-container-info-box .projects-example-line-container-info-box-key{
+    color: #143642;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+#projects-example-page #projects-example-line-container 
+#projects-example-line-container-1 #projects-example-line-container-info 
+.projects-example-line-container-info-box .projects-example-line-container-info-box-value{
+    color: #143642;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+#projects-example-page #projects-example-line-container #projects-example-line-container-2{
+    
+}

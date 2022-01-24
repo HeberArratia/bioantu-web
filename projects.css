@@ -1,0 +1,174 @@
+header{
+    height: 94.2833px !important;
+}
+
+
+.main-navbar-scroll{
+    box-shadow: none !important;
+}  
+
+#projects-page{
+    max-width: 1344px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#projects-page h3{
+    text-align: center;
+    color: #143642;
+    font-size: 1.9em;
+    color: #545d75;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+#projects-page #projects-line{
+    width: 60px;
+    height: 5px;
+    background: rgb(101,198,202);
+    background: linear-gradient(90deg, rgba(101,198,202,1) 15%, rgba(74,158,188,1) 37%, rgba(47,108,128,1) 100%);
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-bottom: 80px;
+}
+
+#projects-page #projects-page-container{
+
+}
+
+#projects-page #projects-page-container #projects-page-container-columns{
+    
+}
+#projects-page #projects-page-container #projects-page-container-columns #projects-page-container-columns-1{
+
+}
+
+#projects-page #projects-page-container #projects-page-container-columns #projects-page-container-columns-1
+#filters-list{
+
+}
+
+#projects-page #projects-page-container #projects-page-container-columns #projects-page-container-columns-1
+#filters-list h5{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #545d75;
+}
+
+#projects-page #projects-page-container #projects-page-container-columns #projects-page-container-columns-1
+#filters-list .filter-box{
+    font-family: 'Source Sans Pro', sans-serif;
+    border-bottom: 1px solid #DFE2E4;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#projects-page #projects-page-container #projects-page-container-columns #projects-page-container-columns-1
+#filters-list .filter-box.filter-box-active{
+    font-weight: 800;
+    color: #545d75;
+}
+
+#projects-page #projects-page-container #projects-page-container-columns #projects-page-container-columns-2{
+    padding: 0px; 
+    margin: 0px;
+}
+
+#projects-page #projects-page-container #projects-page-container-columns 
+#projects-page-container-columns-2 .project-page-projects-list{
+    background: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px;
+}
+
+
+#projects-page #projects-page-container #projects-page-container-columns 
+#projects-page-container-columns-2 .project-page-projects-list .project-page-projects-list-box{
+    background: #F8F8F8;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 15px;
+    display: block;
+}
+
+#projects-page #projects-page-container #projects-page-container-columns 
+#projects-page-container-columns-2 .project-page-projects-list .project-page-projects-list-box img{
+    height: 220px;
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+#projects-page #projects-page-container #projects-page-container-columns 
+#projects-page-container-columns-2 .project-page-projects-list .project-page-projects-list-box 
+.project-page-projects-list-box-bottom{
+   padding: 0px;
+}
+
+
+#projects-page #projects-page-container #projects-page-container-columns 
+#projects-page-container-columns-2 .project-page-projects-list .project-page-projects-list-box 
+.project-page-projects-list-box-bottom h3{
+   font-size: 1.2em;
+   text-align: left;
+   margin-top: 10px;
+   font-family: 'Source Sans Pro', sans-serif;
+   color: #545d75;
+   font-weight: 700;
+}
+
+#projects-page #projects-page-container #projects-page-container-columns 
+#projects-page-container-columns-2 .project-page-projects-list .project-page-projects-list-box 
+.project-page-projects-list-box-bottom p{
+   font-size: 1em;
+   text-align: left;
+   margin-top: 10px;
+   font-family: 'Source Sans Pro', sans-serif;
+   color: #545d75;
+}
+
+#projects-page #projects-page-container #projects-page-container-columns 
+#projects-page-container-columns-2 .project-page-projects-list .project-page-projects-list-box 
+.project-page-projects-list-box-bottom .location-box{
+   display: flex;
+   margin-top: 8px;
+}
+
+#projects-page #projects-page-container #projects-page-container-columns 
+#projects-page-container-columns-2 .project-page-projects-list .project-page-projects-list-box 
+.project-page-projects-list-box-bottom .location-box svg{
+   width: 20px;
+   color: #545d75;
+}
+
+#projects-page #projects-page-container #projects-page-container-columns 
+#projects-page-container-columns-2 .project-page-projects-list .project-page-projects-list-box 
+.project-page-projects-list-box-bottom .location-box span{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #545d75;
+}
+
+#projects-page #projects-page-container #projects-page-container-columns 
+#projects-page-container-columns-2 .project-page-projects-list .project-page-projects-list-box 
+.project-page-projects-list-box-bottom button{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #545d75;
+    border: 0;
+    color: white;
+    width: 180px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 18px;
+    font-size: 1,2em;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}

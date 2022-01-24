@@ -1,0 +1,68 @@
+header{
+    height: 94.2833px !important;
+}
+
+
+.main-navbar-scroll{
+    box-shadow: none !important;
+}  
+
+#contact-page h3{
+    text-align: center;
+    color: #143642;
+    font-size: 1.9em;
+    color: #545d75;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+#contact-page #contact-line{
+    width: 60px;
+    height: 5px;
+    background: rgb(101,198,202);
+    background: linear-gradient(90deg, rgba(101,198,202,1) 15%, rgba(74,158,188,1) 37%, rgba(47,108,128,1) 100%);
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+#contact-page{
+    max-width: 1344px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#contact-page label{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+#contact-page input {
+    height: 60px;
+    font-size: 1.3em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#contact-page textarea{
+    font-size: 1.3em;
+}
+
+#contact-page button{
+    background-color: #143642;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 350px;
+    outline: inherit;
+    border: none;
+    margin-top: 40px;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+}

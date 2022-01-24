@@ -1,0 +1,100 @@
+header{
+    height: 94.2833px !important;
+}
+
+
+.main-navbar-scroll{
+    box-shadow: none !important;
+}  
+
+#about-us-page{
+}
+
+
+
+
+
+
+#about-us-page-container{
+    max-width: 1344px;
+    margin: 0 auto;
+    margin-top: 260px;
+}
+
+
+
+#about-us-page #about-us-page-container p{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #545d75;
+}
+
+#about-us-page #about-us-page-container #download-about-us-pdf{
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #DFE2E4;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about-us-page #about-us-page-container #download-about-us-pdf h5{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3em;
+}
+
+#about-us-page #about-us-page-container #download-about-us-pdf h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em;
+}
+
+#about-us-page #about-us-page-container #download-about-us-pdf .btn{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    margin: 14px auto 0;
+    background-color: #c8b796;
+    transition: background-color .3s;
+    cursor: pointer;
+    
+}
+
+#about-us-page #about-us-page-container #download-about-us-pdf .btn:hover {
+    background: #b0a389;
+}
+
+#about-us-page #about-us-page-container #download-about-us-pdf .btn svg{
+    width: 40px;
+    color: white;
+    padding-top: 10px;
+}
+
+#about-us-page #about-us-page-container #founder-text{
+    background: #315262;
+    margin-top: 60px;
+    padding: 55px;
+    border-radius: 10px;
+}  
+
+#about-us-page #about-us-page-container #founder-text h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+
+}
+
+#about-us-page #about-us-page-container #founder-text p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}

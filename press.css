@@ -1,0 +1,86 @@
+header{
+    height: 94.2833px !important;
+}
+
+
+.main-navbar-scroll{
+    box-shadow: none !important;
+}  
+
+#press-page{
+
+}
+#press-page{
+    max-width: 1344px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+
+#press-page h3{
+    text-align: center;
+    color: #143642;
+    font-size: 1.9em;
+    color: #545d75;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+#press-page #contact-line{
+    width: 60px;
+    height: 5px;
+    background: rgb(101,198,202);
+    background: linear-gradient(90deg, rgba(101,198,202,1) 15%, rgba(74,158,188,1) 37%, rgba(47,108,128,1) 100%);
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+#press-page .press-item{
+    border-bottom: 1px solid #DFE2E4;
+    display: flex;
+   
+}
+
+
+#press-page .press-item .press-item-left{
+    width: 30%;
+    padding: 20px;
+
+}
+
+#press-page .press-item .press-item-left img{
+    display: block;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#press-page .press-item .press-item-right{
+    padding: 20px;
+    width: 70%;
+}
+
+
+#press-page .press-item .press-item-right h2{
+    color: #545d75;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#press-page .press-item .press-item-right a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 800;
+    font-size: 1.2em;
+    text-decoration: underline;
+    display: flex;
+}
+
+#press-page .press-item .press-item-right a svg{
+    width: 20px;
+    margin-top: 10px;
+}

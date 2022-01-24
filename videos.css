@@ -1,0 +1,108 @@
+header{
+    height: 94.2833px !important;
+}
+
+
+.main-navbar-scroll{
+    box-shadow: none !important;
+}  
+
+#video-page{
+
+}
+
+#video-page #videos-page-container{
+    max-width: 1344px;
+    margin: 0 auto;
+    margin-top: 260px;
+}
+
+#video-page #videos-page-container .columns{
+
+}
+
+#video-page #videos-page-container .columns .column{
+    
+}
+
+#video-page #videos-page-container .columns .video-box-item{
+    background: red;
+    height: 350px;
+    border-radius: 20px;
+    position: relative;
+    background-image: url('a3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display: block;
+}
+
+#video-page #videos-page-container .columns .video-box-item-1{
+    background-image: url('videos-images/01.png');
+}
+
+#video-page #videos-page-container .columns .video-box-item-2{
+    background-image: url('videos-images/02.png');
+}
+
+#video-page #videos-page-container .columns .video-box-item-3{
+    background-image: url('videos-images/03.png');
+}
+
+#video-page #videos-page-container .columns .video-box-item-4{
+    background-image: url('videos-images/04.png');
+}
+
+#video-page #videos-page-container .columns .video-box-item-5{
+    background-image: url('videos-images/05.png');
+}
+
+#video-page #videos-page-container .columns .video-box-item-6{
+    background-image: url('videos-images/06.png');
+}
+
+#video-page #videos-page-container .columns .video-box-item-7{
+    background-image: url('videos-images/07.png');
+}
+
+
+#video-page #videos-page-container .columns .video-box-item:before{ 
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(49,82,98, .7);
+    z-index: 2;
+    border-radius: 20px;
+}
+
+#video-page #videos-page-container .columns .video-box-item-btn{
+    height: 100%;
+    text-align: center;
+    padding-top: 100px;
+    z-index: 444;
+    position: absolute;
+    width: 100%;
+}
+
+#video-page #videos-page-container .columns .video-box-item-btn svg{
+    width: 100px;
+    margin: 0 auto;
+    color: white;
+    display: block;
+}
+
+#video-page #videos-page-container .columns .video-box-item .video-box-item-text{
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    z-index: 444;
+    font-family: 'Source Sans Pro', sans-serif;
+}
