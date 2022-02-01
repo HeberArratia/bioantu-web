@@ -34,7 +34,7 @@ header{
 }
 
 #contact-page label{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.3em;
     font-weight: 400;
 }
@@ -42,7 +42,7 @@ header{
 #contact-page input {
     height: 60px;
     font-size: 1.3em;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #contact-page textarea{
@@ -59,10 +59,18 @@ header{
     border: none;
     margin-top: 40px;
     padding: 10px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-weight: 800;
     border-radius: 10px;
     font-size: 1.2em;
     cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+#contact-page button:hover {
+    background: #D19D4B;
+    color: #1D3540;
 }

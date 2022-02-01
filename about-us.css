@@ -24,7 +24,7 @@ header{
 
 
 #about-us-page #about-us-page-container p{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 40px;
     font-weight: 300;
     font-size: 1.5em;
@@ -39,16 +39,16 @@ header{
     margin-top: 50px;
     padding: 30px;
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #about-us-page #about-us-page-container #download-about-us-pdf h5{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.3em;
 }
 
 #about-us-page #about-us-page-container #download-about-us-pdf h6{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2em;
 }
 
@@ -85,16 +85,14 @@ header{
 }  
 
 #about-us-page #about-us-page-container #founder-text h4{
-    font-family: 'Source Sans Pro', sans-serif;
     color: white;
     font-size: 2em;
     text-align: center;
     font-weight: 800;
-    font-family: 'Playfair Display', serif;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 #about-us-page #about-us-page-container #founder-text p{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
 }

@@ -22,7 +22,7 @@ header{
     color: #143642;
     font-size: 1.9em;
     color: #545d75;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
@@ -66,18 +66,22 @@ header{
 
 #press-page .press-item .press-item-right h2{
     color: #545d75;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.6em;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
 #press-page .press-item .press-item-right a{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 1.2em;
     text-decoration: underline;
     display: flex;
+}
+
+#press-page .press-item .press-item-right a:hover{
+    color: #D19D4B;
 }
 
 #press-page .press-item .press-item-right a svg{

@@ -78,11 +78,16 @@ height: 4px;
 }
 
 #menu-full{
-    display: none;
+    position: fixed;
+    z-index: 888;
+    height: 100%;
+    width: 100%;
+    right: 100%;
 }
 
+
 .menu-full--opened{
-    display: block !important;
+    right: 0 !important;
 }
 
 
@@ -90,8 +95,6 @@ height: 4px;
     background-color: #143642;
     height: 100%;
     width: 100%;
-    position: fixed;
-    z-index: 888;
     display: table;
     overflow: hidden
 }
@@ -104,16 +107,33 @@ height: 4px;
 
 #menu #menu-container a{
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.8em;
     font-weight: 600;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    display: block;
+}
+
+#menu #menu-container a:hover{
+    color: #D19D4B; 
 }
 
 #menu #menu-container .menu-divisor{
-    width: 500px;
+    width: 640px;
     height: 2px;
     margin: 0 auto;
     background-color: white;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+#menu #menu-container a:hover .menu-divisor{
+    background: #D19D4B; 
 }
 
 /* navbar */
@@ -135,6 +155,15 @@ height: 4px;
         #main-navbar .navbar-item #main-logo img {
           margin-top: 3px;
           max-height: 120px; }
+
+#main-navbar #flag-change-container {
+    color: white;
+}  
+
+#main-navbar #flag-change-container a:hover{
+    font-weight: 700;
+}    
+
 
 .main-navbar-scroll{
     background-color: #143642 !important;
@@ -182,7 +211,7 @@ header video{
 }
 
 #hero-section-container #hero-section h1 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.4em;
     color: #fff;
     font-weight: 600;
@@ -192,13 +221,12 @@ header video{
 }
 
 #hero-section-container #hero-section h2 {
-    font-family: 'Nanum Myeongjo', serif;
     color: #fff;
-    font-size: 6em;
+    font-size: 5.5em;
     font-weight: 700;
     line-height: 80px;
-    font-family: 'Source Sans Pro', sans-serif;
-       font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #hero-section-container #hero-section h2 span{
@@ -216,6 +244,12 @@ header video{
     text-transform: uppercase;
     cursor: pointer;
     display: inline-block;
+    transition: all .1s;
+}
+
+#hero-section-container #hero-section button:hover {
+    background-color: #fff;
+    color:  rgba(49,82,98, 1);
 }
 
 #hero-section-container #hero-section button div{
@@ -244,12 +278,11 @@ header video{
 }
 
 #present-section .columns h3{
-    font-family: 'Nanum Myeongjo', serif;
     margin-top: 40px;
     font-size: 2em;
     font-weight: 400;
    font-weight: 800;
-    font-family: 'Playfair Display', serif;
+   font-family: 'Montserrat', sans-serif;
     color: #143642;
 }
 
@@ -265,7 +298,7 @@ header video{
 
 
 #present-section .columns p{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 40px;
     font-weight: 300;
     font-size: 1.5em;
@@ -298,12 +331,12 @@ header video{
 #present-section #present-numbers .column-numbers h5{
         font-weight: 600;
         font-size: 2.4em ;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #143642;
 }
 
 #present-section #present-numbers .column-numbers span{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #545d75;
 }
 
@@ -321,7 +354,7 @@ header video{
     text-align: center;
     font-weight: 600;
     font-size: 2.4em ;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     line-height: 56px;
     font-weight: 700;
@@ -339,10 +372,9 @@ header video{
 }
 #services #services-head p{
     text-align: center;
-    font-family: 'Nanum Myeongjo', serif;
     font-size: 1.9em;
     color: #545d75;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
 }
 
@@ -404,7 +436,7 @@ header video{
 }
 
 #services  #services-cards-container #services-cards .service-card .service-card-bottom h2{  
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2em;
     margin-bottom: 20px;
     font-weight: 800;
@@ -412,16 +444,20 @@ header video{
 }
 
 #services  #services-cards-container #services-cards .service-card .service-card-bottom p{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 15px;
 }
 
 #services  #services-cards-container #services-cards .service-card .service-card-bottom a{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: underline;
     color: #143642;
     font-size: 1.2em;
     font-weight: 600;
+}
+
+#services  #services-cards-container #services-cards .service-card .service-card-bottom a:hover{
+    color: #D19D4B;
 }
 
 
@@ -449,13 +485,13 @@ header video{
    color: white;
    font-size: 2.4em;
    margin-bottom: 20px;
-   font-family: 'Source Sans Pro', sans-serif;
+   font-family: 'Montserrat', sans-serif;
    font-weight: 600;
 }
 
 #about-us #about-us-container #about-us-column-1 p{
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
     font-weight: 600;
     margin-bottom: 20px;
@@ -480,6 +516,10 @@ header video{
     text-transform: uppercase;
     display: flex;
     font-weight: 600;
+}
+
+#about-us #about-us-container #about-us-column-1 #about-us-column-1-bottom a:hover {
+    color: #D19D4B;
 }
 
 #about-us #about-us-container #about-us-column-1 #about-us-column-1-bottom svg{
@@ -541,6 +581,11 @@ header video{
     color: #fff;
     font-weight: 700;
     text-decoration: underline;
+    transition: all .2s;
+}
+
+#contact #contact-column2 a:hover{
+    color: #D19D4B;
 }
 
 #blog{
@@ -555,18 +600,24 @@ header video{
     width: 200px;
     margin-top: 80px;
     padding: 10px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-weight: 800;
     border-radius: 10px;
 }
+
+#blog #go-to-blog-section-btn:hover {
+    background: #D19D4B;
+    color: #1D3540;
+}
+
 
 #blog h3{
     text-align: center;
     color: #143642;
     font-size: 1.9em;
     color: #545d75;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
@@ -616,7 +667,7 @@ header video{
 
 #blog #blog-container .column .blog-item .blog-item-bottom h4{
     margin-top: 10px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.2em;
     font-weight: 600;
     color: #000;
@@ -624,7 +675,7 @@ header video{
 }
 
 #blog #blog-container .column .blog-item .blog-item-bottom p{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 15px;
 }
 
@@ -632,6 +683,10 @@ header video{
     color: #143642;
     font-weight: 700;
     text-decoration: underline;
+}
+
+#blog #blog-container .column .blog-item .blog-item-bottom a:hover {
+    color: #D19D4B;
 }
 
 
@@ -644,7 +699,7 @@ header video{
     color: #143642;
     font-size: 1.9em;
     color: #545d75;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
@@ -687,13 +742,14 @@ footer #footer-container #footer-column-1 {
 
 footer #footer-container #footer-column-1 h4 {
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3em;
+    letter-spacing: 5px;
 }
 
 footer #footer-container #footer-column-1 p{
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     margin-bottom: 20px;
 }
@@ -718,7 +774,7 @@ footer #footer-container #footer-column-2 {
 
 footer #footer-container #footer-column-2 h4 {
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     font-weight: 600;
     letter-spacing: 7px;
@@ -730,6 +786,10 @@ footer #footer-container #footer-column-2 #footers-list-contact{
 
 footer #footer-container #footer-column-2 #footers-list-contact a {
     text-decoration: underline;
+}
+
+footer #footer-container #footer-column-2 #footers-list-contact a:hover {
+    color: #D19D4B;
 }
 
 footer #footer-container #footer-column-2 #footers-list-contact .footers-list-contact-item{
@@ -789,12 +849,12 @@ footer #footer-container #footer-column-2 #footers-list-contact .footers-list-co
 .individual-page-header .individual-page-main-image-container .individual-page-main-image .individual-page-main-image-text h1{
     display: table-cell;
     vertical-align: middle;
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 40px;
     font-size: 3.5em;
     font-weight: 400;
     font-weight: 800;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-transform: uppercase;
 }

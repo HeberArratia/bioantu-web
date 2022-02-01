@@ -18,7 +18,7 @@ header{
     color: #143642;
     font-size: 1.2em;
     color: #545d75;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     margin-top: 50px;
     font-weight: 800;
@@ -29,7 +29,7 @@ header{
     color: #143642;
     font-size: 1.9em;
     color: #545d75;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
@@ -70,7 +70,7 @@ header{
 #projects-example-line-container-1 #projects-example-line-container-info 
 .projects-example-line-container-info-box .projects-example-line-container-info-box-key{
     color: #143642;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
@@ -78,7 +78,7 @@ header{
 #projects-example-line-container-1 #projects-example-line-container-info 
 .projects-example-line-container-info-box .projects-example-line-container-info-box-value{
     color: #143642;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 

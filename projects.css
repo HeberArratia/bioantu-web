@@ -18,7 +18,7 @@ header{
     color: #143642;
     font-size: 1.9em;
     color: #545d75;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     margin-top: 50px;
 }
@@ -52,7 +52,7 @@ header{
 
 #projects-page #projects-page-container #projects-page-container-columns #projects-page-container-columns-1
 #filters-list h5{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.2em;
     margin-bottom: 15px;
@@ -61,7 +61,7 @@ header{
 
 #projects-page #projects-page-container #projects-page-container-columns #projects-page-container-columns-1
 #filters-list .filter-box{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     border-bottom: 1px solid #DFE2E4;
     font-weight: 600;
     cursor: pointer;
@@ -71,7 +71,12 @@ header{
 #projects-page #projects-page-container #projects-page-container-columns #projects-page-container-columns-1
 #filters-list .filter-box.filter-box-active{
     font-weight: 800;
-    color: #545d75;
+    color: #D19D4B;
+}
+
+#projects-page #projects-page-container #projects-page-container-columns #projects-page-container-columns-1
+#filters-list .filter-box:hover {
+    color: #D19D4B;
 }
 
 #projects-page #projects-page-container #projects-page-container-columns #projects-page-container-columns-2{
@@ -119,7 +124,7 @@ header{
    font-size: 1.2em;
    text-align: left;
    margin-top: 10px;
-   font-family: 'Source Sans Pro', sans-serif;
+   font-family: 'Montserrat', sans-serif;
    color: #545d75;
    font-weight: 700;
 }
@@ -130,7 +135,7 @@ header{
    font-size: 1em;
    text-align: left;
    margin-top: 10px;
-   font-family: 'Source Sans Pro', sans-serif;
+   font-family: 'Montserrat', sans-serif;
    color: #545d75;
 }
 
@@ -151,14 +156,14 @@ header{
 #projects-page #projects-page-container #projects-page-container-columns 
 #projects-page-container-columns-2 .project-page-projects-list .project-page-projects-list-box 
 .project-page-projects-list-box-bottom .location-box span{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #545d75;
 }
 
 #projects-page #projects-page-container #projects-page-container-columns 
 #projects-page-container-columns-2 .project-page-projects-list .project-page-projects-list-box 
 .project-page-projects-list-box-bottom button{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: #545d75;
     border: 0;
     color: white;
@@ -171,4 +176,11 @@ header{
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
+}
+
+#projects-page #projects-page-container #projects-page-container-columns 
+#projects-page-container-columns-2 .project-page-projects-list .project-page-projects-list-box 
+.project-page-projects-list-box-bottom button:hover {
+    background: #D19D4B;
+    color: #1D3540;
 }

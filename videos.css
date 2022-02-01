@@ -26,44 +26,28 @@ header{
 }
 
 #video-page #videos-page-container .columns .video-box-item{
-    background: red;
     height: 350px;
     border-radius: 20px;
     position: relative;
-    background-image: url('a3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
     display: block;
+    overflow: hidden;
+    
 }
 
-#video-page #videos-page-container .columns .video-box-item-1{
-    background-image: url('videos-images/01.png');
+#video-page #videos-page-container .columns .video-box-item img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   object-fit: cover;
+   transition: all .2s;
 }
 
-#video-page #videos-page-container .columns .video-box-item-2{
-    background-image: url('videos-images/02.png');
-}
-
-#video-page #videos-page-container .columns .video-box-item-3{
-    background-image: url('videos-images/03.png');
-}
-
-#video-page #videos-page-container .columns .video-box-item-4{
-    background-image: url('videos-images/04.png');
-}
-
-#video-page #videos-page-container .columns .video-box-item-5{
-    background-image: url('videos-images/05.png');
-}
-
-#video-page #videos-page-container .columns .video-box-item-6{
-    background-image: url('videos-images/06.png');
-}
-
-#video-page #videos-page-container .columns .video-box-item-7{
-    background-image: url('videos-images/07.png');
+#video-page #videos-page-container .columns .video-box-item:hover img{
+    transform: scale(1.1);
 }
 
 
@@ -104,5 +88,5 @@ header{
     font-size: 1.2em;
     font-weight: 600;
     z-index: 444;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
