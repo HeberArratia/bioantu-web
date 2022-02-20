@@ -90,3 +90,28 @@ header{
     z-index: 444;
     font-family: 'Montserrat', sans-serif;
 }
+
+#video-page #video-btn-container {
+    margin-bottom: 150px;
+}
+
+#video-page #video-btn-container a{
+    background-color: #143642;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 300px;
+    margin-top: 80px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white !important;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+
+#video-page #video-btn-container a:hover {
+    background: #4CA7D0;
+    color: #1D3540;
+}

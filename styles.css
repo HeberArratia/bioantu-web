@@ -118,7 +118,7 @@ height: 4px;
 }
 
 #menu #menu-container a:hover{
-    color: #D19D4B; 
+    color: #4CA7D0; 
 }
 
 #menu #menu-container .menu-divisor{
@@ -133,7 +133,7 @@ height: 4px;
 }
 
 #menu #menu-container a:hover .menu-divisor{
-    background: #D19D4B; 
+    background: #4CA7D0; 
 }
 
 /* navbar */
@@ -154,7 +154,9 @@ height: 4px;
         padding: 0px; }
         #main-navbar .navbar-item #main-logo img {
           margin-top: 3px;
-          max-height: 120px; }
+          max-height: 120px; 
+    
+}
 
 #main-navbar #flag-change-container {
     color: white;
@@ -168,6 +170,9 @@ height: 4px;
 .main-navbar-scroll{
     background-color: #143642 !important;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.03) !important;
+    -webkit-transition: background-color 50ms linear;
+    -ms-transition: background-color 50ms linear;
+    transition: background-color 50ms linear;   
 }      
 
 .main-navbar-scroll #main-logo img {
@@ -235,7 +240,7 @@ header video{
 
 #hero-section-container #hero-section button {
     background-color: transparent;
-    margin-top: 40px;
+    margin-top: 60px;
     padding: 9px 13px 8px;
     border-radius: 30px;
     color: white;
@@ -457,7 +462,7 @@ header video{
 }
 
 #services  #services-cards-container #services-cards .service-card .service-card-bottom a:hover{
-    color: #D19D4B;
+    color: #4CA7D0;
 }
 
 
@@ -519,7 +524,7 @@ header video{
 }
 
 #about-us #about-us-container #about-us-column-1 #about-us-column-1-bottom a:hover {
-    color: #D19D4B;
+    color: #4CA7D0;
 }
 
 #about-us #about-us-container #about-us-column-1 #about-us-column-1-bottom svg{
@@ -554,7 +559,7 @@ header video{
     display: table;
     text-align: right;
     padding-right: 100px;
-    border-top-right-radius: 40px;
+    border-top-right-radius: 0px;
 }
 
 #contact #contact-column1 h4 {
@@ -585,8 +590,52 @@ header video{
 }
 
 #contact #contact-column2 a:hover{
-    color: #D19D4B;
+    color: #4CA7D0;
 }
+
+#magazine {
+    margin-top: 60px;
+}
+
+#magazine #magazine-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+#magazine #magazine-container  #magazine-column1 {
+    text-align: center;
+}
+
+#magazine #magazine-container #magazine-column1 img {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+#magazine #magazine-container #magazine-column1 a {
+    background-color: #143642;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 340px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#magazine #magazine-container #magazine-column1 a:hover {
+    background: #4CA7D0;
+}
+
 
 #blog{
     margin-top: 100px;
@@ -604,11 +653,11 @@ header video{
     color: white;
     font-weight: 800;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 #blog #go-to-blog-section-btn:hover {
-    background: #D19D4B;
-    color: #1D3540;
+    background: #4CA7D0;
 }
 
 
@@ -686,7 +735,7 @@ header video{
 }
 
 #blog #blog-container .column .blog-item .blog-item-bottom a:hover {
-    color: #D19D4B;
+    color: #4CA7D0;
 }
 
 
@@ -721,7 +770,9 @@ header video{
 }
 
 #clients #columns-container .column img{
-    width: 150px;
+    width: 140px;
+    display: block;
+    margin: 0 auto;
 }
 
 footer{
@@ -789,7 +840,7 @@ footer #footer-container #footer-column-2 #footers-list-contact a {
 }
 
 footer #footer-container #footer-column-2 #footers-list-contact a:hover {
-    color: #D19D4B;
+    color: #4CA7D0;
 }
 
 footer #footer-container #footer-column-2 #footers-list-contact .footers-list-contact-item{

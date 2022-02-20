@@ -1,0 +1,88 @@
+header{
+    height: 94.2833px !important;
+}
+
+
+.main-navbar-scroll{
+    box-shadow: none !important;
+}  
+
+#downloads-page{
+
+}
+#downloads-page{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+
+#downloads-page h3{
+    text-align: center;
+    color: #143642;
+    font-size: 1.9em;
+    color: #545d75;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+#downloads-page #contact-line{
+    width: 60px;
+    height: 5px;
+    background: rgb(101,198,202);
+    background: linear-gradient(90deg, rgba(101,198,202,1) 15%, rgba(74,158,188,1) 37%, rgba(47,108,128,1) 100%);
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+#downloads-page .downloads-item{
+    border-bottom: 1px solid #DFE2E4;
+    display: flex;
+   
+}
+
+
+#downloads-page .downloads-item .downloads-item-left{
+    width: 30%;
+    padding: 20px;
+}
+
+#downloads-page .downloads-item .downloads-item-left img{
+    display: block;
+    height: 100%;
+    width: 300px;
+}
+
+#downloads-page .downloads-item .downloads-item-right{
+    padding: 20px;
+    width: 70%;
+}
+
+
+#downloads-page .downloads-item .downloads-item-right h2{
+    color: #545d75;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#downloads-page .downloads-item .downloads-item-right a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    text-decoration: underline;
+    display: flex;
+    color: #143642;
+    font-size: 1.2em;
+}
+
+#downloads-page .downloads-item .downloads-item-right a:hover{
+    color: #4CA7D0;
+}
+
+#downloads-page .downloads-item .downloads-item-right a svg{
+    width: 20px;
+    margin-top: 10px;
+}

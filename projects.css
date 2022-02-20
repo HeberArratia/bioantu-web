@@ -71,12 +71,12 @@ header{
 #projects-page #projects-page-container #projects-page-container-columns #projects-page-container-columns-1
 #filters-list .filter-box.filter-box-active{
     font-weight: 800;
-    color: #D19D4B;
+    color: #4CA7D0;
 }
 
 #projects-page #projects-page-container #projects-page-container-columns #projects-page-container-columns-1
 #filters-list .filter-box:hover {
-    color: #D19D4B;
+    color: #4CA7D0;
 }
 
 #projects-page #projects-page-container #projects-page-container-columns #projects-page-container-columns-2{
@@ -181,6 +181,5 @@ header{
 #projects-page #projects-page-container #projects-page-container-columns 
 #projects-page-container-columns-2 .project-page-projects-list .project-page-projects-list-box 
 .project-page-projects-list-box-bottom button:hover {
-    background: #D19D4B;
-    color: #1D3540;
+    background: #4CA7D0;
 }

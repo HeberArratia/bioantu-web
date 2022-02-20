@@ -87,18 +87,20 @@
             </div>
         </section>
     </div>
-    <header>
+    <header style="height: 100vh!important;">
         <video autoplay muted loop>
-            <source src="demo.mp4" type="video/mp4">
+            <source src="main-video.mp4" type="video/mp4">
         </video>
     <!-- MENU -->
         <nav class="navbar" id="main-navbar">
             <div class="container">
                 <div class="navbar-brand">
                     <div class="navbar-item">
-                        <a id="main-logo" class="navbar-item" href="/">
+                        
+                        <a id="main-logo" style="display: none;" class="navbar-item" href="/">
                             <img src="logo.webp" alt="">
                         </a>
+                        
                     </div>
                 </div>
                 <div class="navbar-menu">
@@ -111,18 +113,6 @@
                             <button class="button btn-hover contact-main-btn">Contacto</button>
                         </div> 
                         -->
-                        <div id="flag-change-container" style="display: flex" class="navbar-item">
-                            <a href="" style="text-decoration: none; display: flex;">
-                                <img style="margin-right: 5px;" src="espana.png" alt="">
-                                <span style="color:white; margin-top: 2px;">ES</span>
-                            </a>
-                            <div style="display: inline; margin-right: 10px;
-                            margin-left: 10px;">|</div>
-                            <a href="" style="text-decoration: none; display: flex">
-                                <img style="margin-right: 5px;" src="reino-unido.png" alt=""> 
-                                <span style="color:white; margin-top: 2px;">EN</span>
-                            </a>
-                        </div>
                         <div id="burger-menu-container">
                             <div class="burger-menu burger-menu--closed">
                                 <div class="bar"></div>
@@ -138,16 +128,18 @@
             <div id="hero-section"> 
                 <div class="columns" style="margin: 0 auto">
                     <div class="column">
+                        <img style="width: 500px; margin-bottom: 30px;" src="logo.webp" alt="">
+                        <!--
                         <h1> Eficiencia Hídrica </h1>
+                        -->
                         <h2>
                             La vida sostiene al <span>agua</span>
                         </h2>
-                        <button id="show-video-btn">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                            <div >ver video</div>
+                        <button id="down-page-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z" />
+                              </svg>
+                            <div>Conocer más</div>
                         </button>
                     </div>
                     <!--
@@ -317,6 +309,16 @@
         </div>
     </section>
 
+     <!-- Magazine -->
+    <section id="magazine" class="wow fadeIn">
+        <div id="magazine-container" class="columns">
+            <div id="magazine-column1">
+                <img src="revistas.png" alt="">
+                <a id="" href="downloads.html">Documentos descargables</a>
+            </div>
+        </div>
+    </section>
+
     <!-- BLOG -->
     <section id="blog">
         <h3 class="wow fadeIn">BLOG</h3>
@@ -375,42 +377,42 @@
         <div id="columns-container" class=" wow fadeIn">
             <div class="columns">
                 <div class="column">
-                    <img src="./clients/sacyr-blanco-cuadrado.jpg" alt="">
+                    <img src="./clients/log-01.png" alt="">
                 </div>
                 <div class="column">
-                    <img src="./clients/Chilehuerta.jpg" alt="">
+                    <img src="./clients/log-02.png" alt="">
                 </div>
                 <div class="column">
-                    <img src="./clients/ecoriam.jpg" alt="">
+                    <img src="./clients/log-03.png" alt="">
                 </div>
                 <div class="column">
-                    <img src="./clients/logo_casinos_2021_600x225.png" alt="">
+                    <img src="./clients/log-04.png" alt="">
                 </div>
                 <div class="column">
-                    <img src="./clients/Logo_Negro_150x.png" alt="">
+                    <img src="./clients/log-05.png" alt="">
                 </div>
                 <div class="column">
-                    <img src="./clients/Logo_SPA_web-01.png" alt="">
+                    <img src="./clients/log-06.png" alt="">
                 </div>
                 <div class="column">
-                    <img src="./clients/Logo_TECHO_Chile.jpg" alt="">
+                    <img src="./clients/log-07.png" alt="">
                 </div>
             </div>
             <div class="columns">
                 <div class="column">
-                    <img src="./clients/Logo-iCaad.png" alt="">
+                    <img src="./clients/log-08.png" alt="">
                 </div>
                 <div class="column">
-                    <img src="./clients/logo-lesaffre2.jpg" alt="">
+                    <img src="./clients/log-09.png" alt="">
                 </div>
                 <div class="column">
-                    <img src="./clients/logo-municipalidad-huechuraba.png" alt="">
+                    <img src="./clients/log-10.png" alt="">
                 </div>
                 <div class="column">
-                    <img src="./clients/Mun-laflorida.png" alt="">
+                    <img src="./clients/log-11.png" alt="">
                 </div>
                 <div class="column">
-                    <img src="./clients/panoramica.png" alt="">
+                    <img src="./clients/log-12.png" alt="">
                 </div>
             </div>
         </div>
@@ -452,13 +454,19 @@
             <div id="footer-column-2" class="column">
                 <h4>CONTÁCTANOS</h4>
                 <div id="footers-list-contact">
-                    <a class="footers-list-contact-item" href="">heberarratia@gmail.com</a>
-                    <a class="footers-list-contact-item" href="">heberarratia2@gmail.com</a>
+                    <a class="footers-list-contact-item" href="mailto:ventas@bioantu.cl">ventas@bioantu.cl</a>
+                    <a class="footers-list-contact-item" href="mailto:comunicacion@bioantu.cl">comunicacion@bioantu.cl</a>
                     <div class="footers-list-contact-item">
-                        (+56 9) 9 72752486
+                        (+56 9) 9478 8079
                     </div>
                     <div class="footers-list-contact-item">
-                        Santiago, Chile
+                        (+56 9) 6250 5197
+                    </div>
+                    <div class="footers-list-contact-item">
+                        Calle Badajoz 100, of. 502, Las Condes
+                    </div>
+                    <div class="footers-list-contact-item">
+                        Calle Maipú 893, Of. 101, Buin
                     </div>
                 </div>
             </div>
@@ -478,6 +486,9 @@
                 $('#menu-full').animate({right: '0'});
                 burgerMenu.addClass("burger-menu--opened");
                 burgerMenu.removeClass("burger-menu--closed");
+                if ($(window).scrollTop() < 340) {
+                    $('#main-logo').show();
+                }
             } else {
                 $('#menu-full').animate({right: '100%'});
                 burgerMenu.removeClass("burger-menu--opened");
@@ -495,14 +506,17 @@
         });
 
         function changeMenuStyle() {
-            if ($(window).scrollTop() > 200){
+            if ($(window).scrollTop() > 340){
                 $('#main-navbar').addClass('main-navbar-scroll');
+                $('#main-logo').show();
             } else {
                 $('#main-navbar').removeClass('main-navbar-scroll');
+                $('#main-logo').hide();
             }
         }
     </script>
     <script>
+        /*
         $('#show-video-btn').on('click', function() {
             $('#modal-video-play').addClass('is-active');
         });
@@ -511,6 +525,14 @@
         });
         $(document).on('keyup', function(e) {
             if (e.key == "Escape") $('#modal-video-play').removeClass('is-active');
+        });
+        */
+    </script>
+    <script>
+        $('#down-page-btn').on('click', function() {
+            $('html, body').animate({
+                scrollTop: $("#present-section").offset().top - 94
+            }, 800);
         });
     </script>
 </body>
